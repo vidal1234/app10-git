@@ -1,0 +1,549 @@
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Decima Aplicacion</title>
+ <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+ <!--grupo CSS-->
+ <link rel="stylesheet" href="css/tema-app10.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ <!--grupo JavaScript-->
+ <script src="js/jquery-1.11.2.min.js"></script>
+ <script src="js/jquery.mobile-1.4.5.min.js"></script>
+ <script src="js/acciones.js"></script>
+ <script src="phonegap.js"></script>
+ 
+
+  <script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+ </head>
+ 
+ <body onLoad="MM_preloadImages('imagenes/26.jpg','imagenes/23.jpg','imagenes/22.jpg','imagenes/19.jpg','imagenes/8.jpg','imagenes/1.jpg','imagenes/12.jpg','imagenes/13.jpg')">
+  <div data-role="page" id="Principal" data-theme="a">
+   
+	   <div data-role="header" data-add-back-btn="true" data-black-btn-txt="Regresar" data-back-btn-theme="b">
+     <h1>Medio Ambiente</h1>
+    </div>
+     <div data-role="main" class="ui-content">
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/1.jpg" alt="1" title="1" id="wows1_0"/></li>
+		<li><img src="data1/images/2.jpg" alt="2" title="2" id="wows1_1"/></li>
+		<li><img src="data1/images/3.jpg" alt="3" title="3" id="wows1_2"/></li>
+		<li><img src="data1/images/4.jpg" alt="4" title="4" id="wows1_3"/></li>
+		<li><img src="data1/images/5.jpg" alt="5" title="5" id="wows1_4"/></li>
+		<li><img src="data1/images/6.jpg" alt="6" title="6" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/7.jpg" alt="bootstrap slider" title="7" id="wows1_6"/></a></li>
+		<li><img src="data1/images/8.jpg" alt="8" title="8" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1"><span><img src="data1/tooltips/1.jpg" alt="1"/>1</span></a>
+		<a href="#" title="2"><span><img src="data1/tooltips/2.jpg" alt="2"/>2</span></a>
+		<a href="#" title="3"><span><img src="data1/tooltips/3.jpg" alt="3"/>3</span></a>
+		<a href="#" title="4"><span><img src="data1/tooltips/4.jpg" alt="4"/>4</span></a>
+		<a href="#" title="5"><span><img src="data1/tooltips/5.jpg" alt="5"/>5</span></a>
+		<a href="#" title="6"><span><img src="data1/tooltips/6.jpg" alt="6"/>6</span></a>
+		<a href="#" title="7"><span><img src="data1/tooltips/7.jpg" alt="7"/>7</span></a>
+		<a href="#" title="8"><span><img src="data1/tooltips/8.jpg" alt="8"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<br>
+     <div>
+     <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Día de la Tierra</h2>
+       <p>Tierra...</p>
+       </a>
+     </li>
+
+	<li class="ui-first-child ui-last-child">
+         <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Día internacional de la Biodiversidad</h2>
+              <p>Biodiversidad...</p>
+				</a>
+              </li>
+           <li class="ui-first-child ui-last-child">
+             <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2>Conciencia Ecológica</h2>
+                    <p>Cuida tu planeta...</p>
+					</a>
+                </li>
+                <li class="ui-first-child ui-last-child">
+             <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2>Desarrollador</h2>
+                    <p>Datos del Desarrollador</p>
+					</a>
+                </li>
+                
+                
+                
+          </ul>
+    </div> 
+    <br>   
+ 
+
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/8.jpg" alt="8" title="8" id="wows2_0"/></li>
+		<li><img src="data2/images/9.jpg" alt="9" title="9" id="wows2_1"/></li>
+		<li><img src="data2/images/10.jpg" alt="10" title="10" id="wows2_2"/></li>
+		<li><img src="data2/images/11.jpg" alt="11" title="11" id="wows2_3"/></li>
+		<li><img src="data2/images/12.jpg" alt="12" title="12" id="wows2_4"/></li>
+		<li><img src="data2/images/13.jpg" alt="13" title="13" id="wows2_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data2/images/14.jpg" alt="http://wowslider.net/" title="14" id="wows2_6"/></a></li>
+		<li><img src="data2/images/15.jpg" alt="15" title="15" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="8"><span><img src="data2/tooltips/8.jpg" alt="8"/>1</span></a>
+		<a href="#" title="9"><span><img src="data2/tooltips/9.jpg" alt="9"/>2</span></a>
+		<a href="#" title="10"><span><img src="data2/tooltips/10.jpg" alt="10"/>3</span></a>
+		<a href="#" title="11"><span><img src="data2/tooltips/11.jpg" alt="11"/>4</span></a>
+		<a href="#" title="12"><span><img src="data2/tooltips/12.jpg" alt="12"/>5</span></a>
+		<a href="#" title="13"><span><img src="data2/tooltips/13.jpg" alt="13"/>6</span></a>
+		<a href="#" title="14"><span><img src="data2/tooltips/14.jpg" alt="14"/>7</span></a>
+		<a href="#" title="15"><span><img src="data2/tooltips/15.jpg" alt="15"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            	<div>
+                   <h4>¡Cuidemos al Planeta!</h4>
+                 <img src="res/android/mdpi.png" width="46" height="46">
+	            	<h4>Raúl Vidal Santamaria Abrajan</h4>
+                </div>
+            </div>  
+            </div>
+            </div>
+            </div>
+            
+            
+    
+    
+    
+    
+    
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>La Tierra</h1>
+     </div>
+     <div data-role="content" align="center">
+     <p>Celebramos el Día Internacional de la Madre Tierra para recordar que el planeta y sus ecosistemas nos dan la vida y el sustento.
+
+Con esta celebración admitimos la responsabilidad colectiva, como nos recordaba la Declaración de Río de 1992, de fomentar la harmonía con la naturaleza y la Madre Tierra para alcanzar el equilibrio justo entre las necesidades económicas, sociales y medioambientales de las generaciones presentes y futuras.
+
+Este día nos brinda la oportunidad de concienciar a todos los habitantes del planeta acerca de los problemas que afectan a la Tierra y a las diferentes formas de vida que en él se desarrollan.
+
+En 2017, la campaña se denomina "Alfabetización medioambiental y climática".
+
+La educación constituye los cimientos del progreso. Necesitamos que la ciudadanía mundial conozca los conceptos sobre el cambio climático y sea consciente de la amenaza sin precedentes para el planeta. El conocimiento nos empoderará a todos y nos llevará a tomar medidas para defender el medio ambiente.
+
+La alfabetización medioambiental y climática no es solo el motor que genera votantes concienciados por las cuestiones ecológicas y promueve legislación en este ámbito, sino que también acelera el desarrollo de tecnologías y empleos respetuosos con el medio ambiente.
+
+</p>
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>Imágenes de Sustitución</h1>
+
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image420','','imagenes/22.jpg',1)"><img src="imagenes/23.jpg" width="150" height="150" id="Image420"></a>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image430','','imagenes/19.jpg',1)"><img src="imagenes/16.jpg" width="150" height="150" id="Image430"></a><br>
+    </div>
+      <br>
+     <div>
+     <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1-1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Importancia de la Tierra</h2>
+       </a>
+     </li>
+     <br>
+	<li class="ui-first-child ui-last-child">
+         <a href="#Pagina1-2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Páginas Web</h2>
+				</a>
+              </li>
+          </ul>
+    </div>
+     <br>
+<div data-role="collapsible" data-content-theme="false">
+    <h1>Imágenes</h1>
+     <img src="imagenes/26.jpg" width="150" height="150">
+     <img src="imagenes/4.jpg" width="150" height="150">
+     <img src="imagenes/5.jpg" width="150" height="150">
+     <img src="imagenes/6.jpg" width="150" height="150">
+     <img src="imagenes/7.jpg" width="150" height="150">
+     <img src="imagenes/16.jpg" width="150" height="150">
+     <img src="imagenes/19.jpg" width="150" height="150">
+     <img src="imagenes/20.jpg" width="150" height="150">
+     <img src="imagenes/21.jpg" width="150" height="150">
+     <img src="imagenes/22.jpg" width="150" height="150">
+     <img src="imagenes/23.jpg" width="150" height="150">
+
+    
+    
+   </div>
+</div>
+     
+        
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            	<div>
+                   <h4>¡Cuidemos al Planeta!</h4>
+                 <img src="res/android/mdpi.png" width="46" height="46">
+	            	<h4>Raúl Vidal Santamaria Abrajan</h4>
+                </div>
+            </div> </div>
+   
+ <div data-role="page" id="Pagina1-1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>La Importancia de la Tierra</h1>
+     </div>
+     <div data-role="content" align="center">
+     <p>El Planeta Tierra es el planeta donde nosotros vivimos y habitamos. Si uno pensara en todo lo que contiene nuestro planeta, en la cantidad de especies que conviven, en las obras monumentales que el hombre ha creado en él, termina por darse cuenta que la Tierra es inmensa y que ofrece un equilibrio perfecto en cuanto naturaleza, que lamentablemente el hombre se ha encargado de manipular aun cuando se conozca que dicha manipulación trae serios problemas poniendo en peligro especies de seres vivos, como está ocurriendo con especies vegetales y animales.</p>
+     <br>
+ 
+
+<div data-role="collapsible" data-content-theme="false">
+    <h1>Más Información</h1>
+    <div data-role="main" class="ui-content" align="center">
+  <div style="width:50%">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+     <a href="https://prezi.com/ccei7dphawrr/la-importancia-del-planeta-tierra/?webgl=0" target="_self" data-role="button" >
+      <h2>Prezi</h2>
+       </a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  <br>
+  
+
+ 
+     </div>   
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            	<div>
+                   <h4>¡Cuidemos al Planeta!</h4>
+                 <img src="res/android/mdpi.png" width="46" height="46">
+	            	<h4>Raúl Vidal Santamaria Abrajan</h4>
+                </div>
+            </div> </div></div>
+    
+ <div data-role="page" id="Pagina1-2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Páginas Web</h1>
+     </div>
+     <div data-role="content" align="center"> 
+     <br>
+     <div data-role="main" class="ui-content" align="center">
+  <div style="width:50%">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+     <a href="https://es.wikipedia.org/wiki/Día_de_la_Tierra" target="_self" data-role="button" >
+      <h2>Wikipedia</h2>
+       </a>
+        </li>
+        <hr>
+        <li class="ui-first-child ui-last-child">
+     <a href="http://elblogverde.com/dia-de-la-tierra-como-celebrarlo/" target="_self" data-role="button" >
+      <h3>El blog verde</h3>
+       </a>
+        </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            	<div>
+                   <h4>¡Cuidemos al Planeta!</h4>
+                 <img src="res/android/mdpi.png" width="46" height="46">
+	            	<h4>Raúl Vidal Santamaria Abrajan</h4>
+                
+            </div> </div></div>
+    
+    
+    
+    
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Biodiversidad</h1>
+     </div>
+     <div data-role="content" align="center">
+     <p>Las Naciones Unidas proclamaron el 22 de mayo como día Internacional de la Diversidad Biológica, fecha que es celebrada en Venezuela con un honroso décimo lugar en todo el planeta, con la mayor variedad de animales, plantas y ecosistemas.
+
+Biodiversidad significa variedad de vida, tanto de los ecosistemas como de especies e individuos, incluidos todos los tipos de vida. La biodiversidad es el producto de los procesos evolutivos de los seres vivos.
+
+Nuestro planeta alberga una cantidad de especies, tanto vegetales como animales, las cuales viven en múltiples hábitats naturales, que cuando se alteran o destruyen, ocasionan la perdida de biodiversidad. 
+
+El 19 de diciembre de 1994, la Asamblea General proclamó el 29 de diciembre, fecha de entrada en vigor del Convenio sobre la Diversidad Biológica, Día Internacional de la Diversidad Biológica (resolución 49/119). La Conferencia de las Partes en el Convenio, celebrada en Nassau en 1994, había recomendado la designación de ese Día. Posteriormente se cambió la fecha al 22 de mayo, como conmemoración de la firma de la Convención sobre Diversidad Biológica.
+
+La diversidad biológica es uno de los pilares de la vida humana. Estabiliza el clima de la Tierra, renueva la fertilidad del suelo y provee bienes y servicios que contribuyen a nuestro bienestar material. Sin embargo insostenibles patrones de producción y consumo y otras practicas nocivas, exacerbadas por la pobreza y otros factores sociales y económicos, continúan destrozando, a una tasa sin precedentes, el hábitat natural y a las especies que dependen de el.
+
+</p>
+     <div data-role="collapsible" data-content-theme="false">
+    <h1>Imágenes de Sustitución</h1>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','imagenes/1.jpg',1)"><img src="imagenes/3.jpg" width="150" height="150" id="Image46"></a>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image45','','imagenes/8.jpg',1)"><img src="imagenes/2.jpg" width="150" height="150" id="Image45"></a>
+     </div>
+       <br>
+<div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2-1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Definición Biodiversidad</h2>
+       </a>
+     </li>
+	<li class="ui-first-child ui-last-child">
+         <a href="#Pagina2-2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Páginas Web</h2>
+				</a>
+              </li>
+          </ul>
+  </div>
+     <br>
+<div data-role="collapsible" data-content-theme="false">
+    <h1>Imágenes</h1>
+     <img src="imagenes/3.jpg" width="150" height="150">
+     <img src="imagenes/2.jpg" width="150" height="150">
+     <img src="imagenes/8.jpg" width="150" height="150">
+     <img src="imagenes/imagen19.png" width="150" height="150">
+     <img src="imagenes/1.jpg" width="150" height="150">
+
+    
+    
+   </div></div>
+     
+        
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            	<div>
+                   <h4>¡Cuidemos al Planeta!</h4>
+                 <img src="res/android/mdpi.png" width="46" height="46">
+	            	<h4>Raúl Vidal Santamaria Abrajan</h4>
+                </div>
+            </div> </div>
+ 
+ <div data-role="page" id="Pagina2-1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Definición Biodiversidad</h1>
+     </div>
+     <div data-role="content" align="center">
+     <p>La biodiversidad o diversidad biológica es, según el Convenio Internacional sobre la Diversidad Biológica, el término por el que se hace referencia a la amplia variedad de seres vivos sobre la Tierra y los patrones naturales que la conforman, resultado de miles de millones de años de evolución según procesos naturales y también de la influencia creciente de las actividades del ser humano. La biodiversidad comprende igualmente la variedad de ecosistemas y las diferencias genéticas dentro de cada especie que permiten la combinación de múltiples formas de vida, y cuyas mutuas interacciones con el resto del entorno fundamentan el sustento de la vida sobre el mundo.</p>
+     <br>
+ 
+
+<div data-role="collapsible" data-content-theme="false">
+    <h1>Más Información</h1>
+    <div data-role="main" class="ui-content" align="center">
+  <div style="width:50%">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+     <a href="https://es.wikipedia.org/wiki/Biodiversidad" target="_self" data-role="button" >
+      <h2>Wikipedia</h2>
+       </a>
+        </li>
+        </ul>
+      </div>
+    </div>
+
+
+ 
+     </div>   
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            	<div>
+                   <h4>¡Cuidemos al Planeta!</h4>
+                 <img src="res/android/mdpi.png" width="46" height="46">
+	            	<h4>Raúl Vidal Santamaria Abrajan</h4>
+                </div>
+            </div> </div></div>
+    
+ <div data-role="page" id="Pagina2-2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Páginas Web</h1>
+     </div>
+     <div data-role="content" align="center"> 
+     <br>
+     <div data-role="main" class="ui-content" align="center">
+  <div style="width:50%">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+     <a href="http://www.un.org/es/events/biodiversityday/" target="_self" data-role="button" >
+      <h2>ONU</h2>
+       </a>
+        </li>
+        <hr>
+        <li class="ui-first-child ui-last-child">
+     <a href="http://www.ine.gob.ve/index.php?option=com_content&view=article&id=114:22-de-mayo-dia-internacional-de-la-biodiversidad&catid=107:efemerides-&Itemid=48" target="_self" data-role="button" >
+      <h3>INE</h3>
+       </a>
+        </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            	<div>
+                   <h4>¡Cuidemos al Planeta!</h4>
+                 <img src="res/android/mdpi.png" width="46" height="46">
+	            	<h4>Raúl Vidal Santamaria Abrajan</h4>
+                
+            </div> </div></div>
+ 
+ 
+ 
+ 
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Conciencia Ecológica </h1>
+     </div>
+     <div data-role="content" align="center">
+     <p>Tener conciencia ecológica es entender que somos dependientes de la naturaleza y responsables por su estado de conservación. Ignorar esta verdad equivale a autodestruirnos, porque al degradar el medio ambiente estamos empeorando nuestra calidad de vida y poniendo en peligro el futuro de nuestros descendientes.</p>
+     <div data-role="collapsible" data-content-theme="false">
+    <h1>Imágenes de Sustitución</h1>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image50','','imagenes/12.jpg',1)"><img src="imagenes/9.jpg" width="150" height="150" id="Image50"></a>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image51','','imagenes/13.jpg',1)"><img src="imagenes/10.jpg" width="150" height="150" id="Image51"></a>
+</div>
+  <br>
+<div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+     <li class="ui-first-child ui-last-child">
+       <a href="https://es.slideshare.net/anayelilunaduran/conciencia-ecologica-10282431" class="ui-btn ui-btn-icon-right ui-icon-carat-r" target="_self">
+       <h2>Presentación de Slideshare</h2>
+       </a>
+     </li>
+	<li class="ui-first-child ui-last-child">
+         <a href="#Pagina3-2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Páginas Web</h2>
+				</a>
+              </li>
+          </ul>
+</div>
+     <br>
+<div data-role="collapsible" data-content-theme="false">
+    <h1>Imágenes</h1>
+    <img src="imagenes/9.jpg" width="150" height="150">
+    <img src="imagenes/10.jpg" width="150" height="150">
+    <img src="imagenes/11.jpg" width="150" height="150">
+    <img src="imagenes/12.jpg" width="150" height="150">
+    <img src="imagenes/13.jpg" width="150" height="150">
+    <img src="imagenes/14.jpg" width="150" height="150">
+    <img src="imagenes/15.jpg" width="150" height="150">
+    <img src="imagenes/17.jpg" width="150" height="150">
+    <img src="imagenes/18.jpg" width="150" height="150">
+    <img src="imagenes/26.jpg" width="150" height="150"></div></div>
+     <br>
+        
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            	<div>
+                   <h4>¡Cuidemos al Planeta!</h4>
+                 <img src="res/android/mdpi.png" width="46" height="46">
+	            	<h4>Raúl Vidal Santamaria Abrajan</h4>
+                </div>
+            </div> </div> 
+ 
+<div data-role="page" id="Pagina3-2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Páginas Web</h1>
+     </div>
+     <div data-role="content" align="center"> 
+     <br>
+     <div data-role="main" class="ui-content" align="center">
+  <div style="width:50%">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+     <a href="https://www.ecologiaverde.com/conciencia-ecologica/" target="_self" data-role="button" >
+      <h2>Ecología Verde</h2>
+       </a>
+        </li>
+        <hr>
+        <li class="ui-first-child ui-last-child">
+     <a href="https://www.ocio.net/estilo-de-vida/ecologismo/que-es-la-conciencia-ecologica/" target="_self" data-role="button" >
+      <h3>Ocio.net</h3>
+       </a>
+        </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            	<div>
+                   <h4>¡Cuidemos al Planeta!</h4>
+                 <img src="res/android/mdpi.png" width="46" height="46">
+	            	<h4>Raúl Vidal Santamaria Abrajan</h4>
+                
+            </div> </div></div>
+ 
+ 
+ 
+ 
+ 
+ 
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Desarrollador:</h1>
+     </div>
+     <div data-role="content" align="center">
+     <br>
+     <h1>Nombre:</h1>
+     <p>Raúl Vidal Santamaria Abrajan</p>
+     <br>
+     <h1>Grado y Grupo:</h1>
+     <p>4° "E"</p>
+     <br>
+     <h1>Especialidad:</h1>
+     <p>Programación</p>
+     <br>
+     <h1>Submódulo:</h1>
+     <p>Desarrolla Aplicaciones Móviles</p>
+     <br>
+     <h1>Docente:</h1>
+     <p>Lic. José Antonio Gómez Hernández</p>
+     </div>
+     
+        
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            	<div>
+                   <h4>¡Cuidemos al Planeta!</h4>
+                 <img src="res/android/mdpi.png" width="46" height="46">
+	            	<h4>Raúl Vidal Santamaria Abrajan</h4>
+                </div>
+            </div>
+            </div>
+</body>
+</html>
